@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&family=Nanum+Myeongjo:wght@700&display=swap');
+body{
+    background-color:#20262E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* h1{
+    color: azure;
+    display: flex;
+    justify-content:center;
+} */
+nav{
+    font-family: 'Castoro Titling', cursive;
+    position: sticky;
+    top: 0;
+}
+
+nav ul{
+    
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    background-color: black;
+    color: #FEFBF6;
+    height: 68px;
+}
+
+nav ul li{
+    padding: 0 14px;
+}
+
+.log{
+    padding-left: 800px;
+    display: flex;
+    align-items: center;
+    color: azure;
+}
+.logo img{
+    width: 50px;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+   /* font-family: 'Castoro Titling', cursive; */
+font-family: 'Nanum Myeongjo', serif;
+   display: flex;
+   margin: 25px auto;
+   width: 70%;
+   border-radius: 15px;
+   padding: 25px;
+   
+  
+}
+
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 150px;
+   
+    background-color: #000000;
+    color: whitesmoke;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+   
+}
+
+.icons{
+    margin-top: 16px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 40vw; 
+    cursor: pointer;
+   
+
+    
+}
+
+
+.songItemContainer{
+    margin-top: 74px;
+    
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: #2C3333;
+    
+    color: whitesmoke;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 31px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+/* @media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  } */
+
+
+.header{
+    display: flex;
+    
+}
+.header h1{
+    margin-top: 25px;
+    font-weight:bolder;
+    
+}
+.header img{
+    width: 120px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    height: 100px;
+}
